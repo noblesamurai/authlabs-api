@@ -1,7 +1,8 @@
 {
   "name": "authlabs-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper around node-al-papi to make it nicer to use.",
+  "repository": "git@github.com:noblesamurai/authlabs-api.git",
   "main": "al.js",
   "scripts": {
     "test": "mocha test --recursive"
