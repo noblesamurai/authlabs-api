@@ -1,0 +1,23 @@
+{
+  "name": "authlabs-api",
+  "version": "0.0.0",
+  "description": "Wrapper around node-al-papi to make it nicer to use.",
+  "main": "al.js",
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "keywords": [
+    "authority",
+    "labs",
+    "authlabs"
+  ],
+  "author": "Timothy Leslie Allen <allen.timothy.email@gmail.com> (https://github.com/timlesallen)",
+  "license": "BSD clause 3",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "nock": "^0.48.2"
+  },
+  "dependencies": {
+    "al-papi": "git+https://github.com/noblesamurai/node-al-papi.git#1a49283"
+  }
+}
