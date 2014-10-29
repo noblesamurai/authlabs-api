@@ -1,6 +1,6 @@
 {
   "name": "authlabs-api",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Wrapper around node-al-papi to make it nicer to use.",
   "main": "al.js",
   "scripts": {
