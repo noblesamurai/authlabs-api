@@ -14,7 +14,6 @@ var al = require('../al')({
 });
 
 var params = {
-  jobId: 234,
   keyword: 'blah',
   searchEngine: 'bing',
   locale: 'en-au',

@@ -17,7 +17,6 @@ describe('Al', function() {
   it('it issues a well formed POST to AL with the correct info, ' +
     'subject to rate limiting', function(done) {
     var params = {
-      jobId: 234,
       keyword: 'blah',
       searchEngine: 'bing',
       locale: 'en-au',
@@ -52,7 +51,6 @@ describe('Al', function() {
 
   it('sends to the priority queue for instant jobs', function(done) {
     var params = {
-      jobId: 234,
       keyword: 'blah',
       searchEngine: 'bing',
       locale: 'en-au',
